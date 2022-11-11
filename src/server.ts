@@ -1,3 +1,4 @@
-const a = 5
+import app from './app'
 
-console.log(a)
+app.listen(3333
+  , () => console.log('Server started on port 3333!, docs in http://localhost:3333/docs'))
